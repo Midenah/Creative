@@ -1,0 +1,248 @@
+.first {
+    overflow: auto;
+}
+
+ #design{
+    width: 246px;
+    height: 180px;
+    left: 146px;
+    top: 1088px;
+    border-radius: 6px;
+    margin-right: 20px;
+    float: left;
+
+}
+.first.dash{
+    width: 335px;
+    height: 44px;
+    top: 1077px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.first .cover{
+    width: 62px;
+    height: 25px;
+    left: 410px;
+    top: 1141px;
+    background: #142850;
+    border-radius: 16px;
+}
+
+.first.cover p{
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 1123px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 60px;
+    color: #995858;
+}
+
+.first .dashboard{
+    width: 374px;
+    height: 34px;
+    left: 498px;
+    top: 1137px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.first p{
+    width: 594px;
+    height: 93px;
+    left: 410px;
+    top: 1188px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+
+}
+
+.second{
+    overflow: auto;
+}
+
+#vibrant{
+    width: 246px;
+    height: 180px;
+    left: 146px;
+    top: 1314px;
+    border-radius: 6px;
+    margin-right:20px;
+    float: left;
+}
+
+.vibrant{
+    width: 337px;
+    height: 44px;
+    left: 410px;
+    top: 1312px;
+
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+
+    color: #21243D;
+}
+
+.covers {
+    width: 62px;
+    height: 25px;
+    left: 560px;
+    top: 1372px;;
+    background: #142850;
+    border-radius: 16px;
+}
+
+.covers .bt{
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 1354px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+.second .illustration{
+    width: 374px;
+    height: 34px;
+    left: 498px;
+    top: 1368px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.second p{
+    width: 594px;
+    height: 93px;
+    left: 148px;
+    top: 1419px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    text-align: right;
+}
+
+.third{
+    overflow: auto;
+}
+
+#days{
+    width: 246px;
+    height: 180px;
+    left: 148px;
+    top: 1560px;
+    border-radius: 6px;
+    margin-right: 20px;
+    float: left;
+}
+.third.days{
+    width: 365px;
+    height: 44px;
+    left: 410px;
+    top: 1560px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.cvr{
+    width: 62px;
+    height: 25px;
+    left: 410px;
+    top: 1372px;
+    background: #142850;
+    border-radius: 16px;
+}
+
+.cvr p{
+    width: 42px;
+    height: 60px;
+    left: 420px;
+    top: 1599px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+ .typography{
+    width: 374px;
+    height: 34px;
+    left: 498px;
+    top: 1613px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+   color: #8695A4;
+}
+
+.third p{
+    width: 507px;
+    height: 93px;
+    left: 413px;
+    top: 1679px;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+}
+
+#container{
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;    
+    background: #FFFFFF
+}
+
+.footer p{
+    height: 21px;
+    left: 40.28%;
+    right: 40.45%;
+    top: calc(50% - 21px/2 + 26.5px);
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+}
