@@ -1,0 +1,329 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    overflow-x: hidden;
+}
+header{
+    margin:2rem 4rem;
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;    
+    
+}
+
+header ul{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+}
+header li{
+    list-style: none; 
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline #319cfa;
+}
+#menu{
+    display: none;
+    margin-right: 0%;
+}
+.main-container{
+    padding: 2rem 3rem;
+    width: 100%;
+    display: flex;
+    gap: 20rem;
+}
+.main-header{
+    width: 40%;
+}
+.main-header button{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 39px;
+    background: #FF6464;
+    border-radius: 2px;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.7rem;
+}
+.name{
+    font-family: "heebo";
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    margin-bottom: 20px;  
+}
+.text{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    margin-bottom: 20px;
+}
+.recent{
+    color: #21243D;
+    font-family:'heebo';
+    font-style: normal;
+    margin-top: 3rem;
+}
+.recent-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 3rem;
+}
+
+.recent-header p{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.recent-header a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90px;
+    color: #00A8CC;
+}
+.recent-box{
+    background: #90e1f4;
+    display: flex;
+    width: 100%;
+    padding: 1rem 2rem;
+    gap: 6rem;
+}
+.box{
+    background: #FFFFFF;
+    padding: 1rem;
+    width: 40%;
+}
+.box h3{
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 38px;
+}
+.box h4{
+    color: #b3c0ce;
+}
+
+.featured{
+    font-family: 'Heebo';
+    font-style: normal;
+    margin: 3rem;
+}
+
+.featured h3{
+    margin-bottom:1rem;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+}
+.designs{ 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.design-text{
+    width: 50%;
+}
+.design-text h2{
+    font-weight: 700;
+}
+.design-date{
+    display: flex;
+    gap: 2rem;
+}
+.design-date button{
+    padding: 0.3rem 1rem;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 14px;
+    background: #142850;
+    color: #FFFFFF;
+}
+.design-date p{
+    color: #8695A4;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+footer{
+    margin:4rem 3rem ;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+footer li{
+    list-style: none; 
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+footer p{
+    font-family: 'Heebo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    margin-top: 1rem;
+}
+
+
+/*works css*/
+
+
+.page {
+    color:#FF6464;
+}
+  
+
+/* blog css*/
+
+.blog{
+    margin: 2rem 4rem;
+    font-family: 'Heebo';
+    font-style: normal;
+}
+
+.blog h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.blog-text h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+    margin-bottom: 10px;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #21243D;
+    display: flex;
+}
+.dt{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.epistle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #21243D;
+    width:650px;
+    padding-bottom: 20px;
+}
+hr{
+    color: #e0e0e0;
+}
+
+ /* RESPONSIVE DESIGN */
+@media only screen and (max-width: 768px) {
+    body{
+        overflow-x: hidden;
+    }
+    header ul{
+        position: absolute;
+        display: flex;
+        font-weight: bold;
+        right: -1001%;
+        width: 120px;
+        line-height: 15px;
+        display: block;
+        background: #F3F3F3;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all .30s ease;
+    }
+    #menu{
+        display: block;
+        cursor: pointer;
+        font-size: 35px;
+       }
+    .open{
+        right: 5%;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+        gap: 7rem;
+        align-items: center;
+        padding-left: 0;
+    }  
+    .main-header{
+        width: 80%;
+    }
+    .name{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .main-header button{
+        width: 70%;
+        margin-left: 3rem;
+    }
+    .main-container img{
+        width:50%;
+    }
+    .recent-box{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+    .featured h3{
+        text-align: center;
+    }
+    .designs{
+        flex-direction: column;
+    }
+    .design-text{
+        width: 80%;
+        text-align: center;
+    }
+    .design-date{
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+}
