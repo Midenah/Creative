@@ -6,7 +6,7 @@ body{
     overflow-x: hidden;
 }
 header{
-    margin:2rem 4rem;
+    margin:2rem 0;
     font-family: 'Heebo';
     font-style: normal;
     font-weight: 500;
@@ -20,6 +20,7 @@ header ul{
     display: flex;
     gap: 20px;
     justify-content: end;
+    margin-left: 3rem;
 }
 header li{
     list-style: none; 
@@ -34,7 +35,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    text-decoration: underline #319cfa;
+    text-decoration: underline #31befa;
 }
 #menu{
     display: none;
@@ -44,10 +45,10 @@ a:hover{
     padding: 2rem 3rem;
     width: 100%;
     display: flex;
-    gap: 20rem;
+    gap: 12rem;
 }
 .main-header{
-    width: 40%;
+    width: 45%;
 }
 .main-header button{
     font-family: 'Heebo';
@@ -59,7 +60,7 @@ a:hover{
     border-radius: 2px;
     color: #FFFFFF;
     border: none;
-    padding: 0.7rem;
+    padding: 0.3rem 1rem;
 }
 .name{
     font-family: "heebo";
@@ -67,6 +68,7 @@ a:hover{
     font-size: 44px;
     line-height: 60px;
     color: #21243D;
+    width: 90%;
     margin-bottom: 20px;  
 }
 .text{
@@ -79,10 +81,12 @@ a:hover{
     margin-bottom: 20px;
 }
 .recent{
+    background: #e9fafe;
     color: #21243D;
     font-family:'heebo';
     font-style: normal;
     margin-top: 3rem;
+    padding: 3rem 0;
 }
 .recent-header{
     display: flex;
@@ -104,7 +108,6 @@ a:hover{
     color: #00A8CC;
 }
 .recent-box{
-    background: #90e1f4;
     display: flex;
     width: 100%;
     padding: 1rem 2rem;
@@ -113,7 +116,7 @@ a:hover{
 .box{
     background: #FFFFFF;
     padding: 1rem;
-    width: 40%;
+    width: 31%;
 }
 .box h3{
     font-size: 26px;
@@ -121,7 +124,8 @@ a:hover{
     line-height: 38px;
 }
 .box h4{
-    color: #b3c0ce;
+    color: #646b72;
+    font-weight:200 ;
 }
 
 .featured{
@@ -150,9 +154,13 @@ a:hover{
 .design-text h2{
     font-weight: 700;
 }
+.design-text h5{
+    font-weight: 500;
+}
 .design-date{
     display: flex;
     gap: 2rem;
+    margin: 1rem 0;
 }
 .design-date button{
     padding: 0.3rem 1rem;
@@ -168,7 +176,9 @@ a:hover{
     font-size: 20px;
     font-weight: 500;
 }
-
+.featured hr{
+    margin-bottom: 2rem;
+}
 
 footer{
     margin:4rem 3rem ;
