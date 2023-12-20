@@ -20,7 +20,7 @@ header ul{
     display: flex;
     gap: 20px;
     justify-content: end;
-    margin-left: 3rem;
+    margin: 0 3rem;
 }
 header li{
     list-style: none; 
@@ -343,4 +343,74 @@ hr{
         flex-direction: column;
         gap: 0.1rem;
     }
+}
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    header ul{
+        position: absolute;
+        display: flex;
+        font-weight: bold;
+        right: -1001%;
+        width: 120px;
+        line-height: 15px;
+        display: block;
+        background: #F3F3F3;
+        flex-direction: column;
+        border-radius: 10px;
+        transition: all .30s ease;
+    }
+    #menu{
+        display: block;
+        cursor: pointer;
+        font-size: 35px;
+       }
+    .open{
+        right: 5%;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+        gap: 7rem;
+        align-items: center;
+        padding-left: 0;
+    }  
+    .main-header{
+        width: 80%;
+    }
+    .name{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+    }
+    .main-header button{
+        width: 70%;
+        margin-left: 3rem;
+    }
+    .main-container img{
+        width:50%;
+    }
+    .recent-box{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        gap: 2rem;
+    }
+    .box{
+        width: 80%;
+    }
+    .featured h3{
+        text-align: center;
+    }
+    .designs{
+        flex-direction: column;
+    }
+    .design-text{
+        width: 80%;
+        text-align: center;
+    }
+    .design-date{
+        flex-direction: column;
+        gap: 0.1rem;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
 }
