@@ -274,17 +274,12 @@ hr{
 
  /* RESPONSIVE DESIGN */
 @media only screen and (max-width: 768px) {
-    body{
-        overflow-x: hidden;
-    }
+    
     header ul{
-        position: absolute;
-        display: flex;
         font-weight: bold;
-        right: -1001%;
         width: 120px;
         line-height: 15px;
-        display: block;
+        display: none;
         background: #F3F3F3;
         flex-direction: column;
         border-radius: 10px;
@@ -295,8 +290,8 @@ hr{
         cursor: pointer;
         font-size: 35px;
        }
-    .open{
-        right: 5%;
+    .show{
+        display: block;
     }
     .main-container{
         flex-direction: column-reverse;
